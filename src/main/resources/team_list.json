@@ -1,41 +1,41 @@
 [{
-  "couch": "Dan Quinn",
+  "coach": "Dan Quinn",
   "city": "Atlanta",
   "year": 2015
 }, {
-  "couch": "John Harbaugh",
+  "coach": "John Harbaugh",
   "city": "Baltimore",
   "year": 2008
 }, {
-  "couch": "Sean McDermott",
+  "coach": "Sean McDermott",
   "city": "Buffalo",
   "year": 2007
 }, {
-  "couch": "Matt Nagy",
+  "coach": "Matt Nagy",
   "city": "Chicago",
   "year": 2001
 }, {
-  "couch": "Marvin Lewis",
+  "coach": "Marvin Lewis",
   "city": "Cincinnati",
   "year": 2003
 }, {
-  "couch": "Hue Jackson",
+  "coach": "Hue Jackson",
   "city": "Cleveland",
   "year": 2016
 }, {
-  "couch": "Jason Garrett",
+  "coach": "Jason Garrett",
   "city": "Dallas",
   "year": 2010
 }, {
-  "couch": "Vance Joseph",
+  "coach": "Vance Joseph",
   "city": "Denver",
   "year": 2004
 }, {
-  "couch": "Matt Patricia",
+  "coach": "Matt Patricia",
   "city": "Detroit",
   "year": 2018
 }, {
-  "couch": "Bill O'Brien",
+  "coach": "Bill O'Brien",
   "city": "Houston",
   "year": 2014
 }]
