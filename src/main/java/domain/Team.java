@@ -20,4 +20,14 @@ public class Team {
         this.city = city;
         this.year = year;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("\n***** Team Details *****\n");
+        sb.append("Coach: \t" + coach +"\n");
+        sb.append("City: \t" + city +"\n");
+        sb.append("Year: \t" + year);
+        return sb.toString();
+    }
 }
