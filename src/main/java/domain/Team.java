@@ -30,4 +30,16 @@ public class Team {
         sb.append("Year: \t" + year);
         return sb.toString();
     }
+
+    public String getCoach() {
+        return coach;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public int getYear() {
+        return year;
+    }
 }
