@@ -10,12 +10,7 @@ public class SortingUtil {
 
     public static List<Team> sortTeams(List<Team> unsortedList){
 
-        Collections.sort(unsortedList, new Comparator<Team>() {
-
-            public int compare(Team team1, Team team2) {
-                return team1.compareTo(team2);
-            }
-        });
+        Collections.sort(unsortedList, (team1, team2) -> team1.compareTo(team2));
 
         return unsortedList;
     }
