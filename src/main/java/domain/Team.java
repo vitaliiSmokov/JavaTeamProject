@@ -4,6 +4,8 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.util.Objects;
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Team implements Comparable<Team> {
 
@@ -41,6 +43,22 @@ public class Team implements Comparable<Team> {
         sb.append("City: \t" + city +"\n");
         sb.append("Year: \t" + year);
         return sb.toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Team)) return false;
+        Team team = (Team) o;
+        return getYear() == team.getYear() &&
+                Objects.equals(getCoach(), team.getCoach()) &&
+                Objects.equals(getCity(), team.getCity());
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(getCoach(), getCity(), getYear());
     }
 
     public int compareTo(Team team){
