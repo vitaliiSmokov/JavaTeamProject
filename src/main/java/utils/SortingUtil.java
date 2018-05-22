@@ -8,7 +8,7 @@ import java.util.List;
 
 public class SortingUtil {
 
-    public List<Team> sortTeams(List<Team> unsortedList){
+    public static List<Team> sortTeams(List<Team> unsortedList){
 
         Collections.sort(unsortedList, new Comparator<Team>() {
 
